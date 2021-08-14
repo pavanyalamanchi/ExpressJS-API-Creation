@@ -1,0 +1,52 @@
+[{
+        "0": {
+            "name": { "first": "Garrick", "last": "Schmeler" },
+            "avatar": "http://placeimg.com/640/480",
+            "location": "Puerto Rico",
+            "contacts": [
+                { "type": "phone", "value": "539-242-1806" },
+                { "type": "email", "value": "Sammy91@hotmail.com" },
+                { "type": "twitter", "value": "Ben89" },
+                { "type": "skype", "value": "Nicola.Stroman48" },
+                { "type": "discord", "value": "Earlene_Kuhn64" }
+            ]
+        },
+        "contacts": [],
+        "id": "5a2qo238tksb8gjsu",
+        "createdAt": "2021-08-14T03:42:04.349Z"
+    },
+    {
+        "0": {
+            "name": { "first": "Sage", "last": "Weissnat" },
+            "avatar": "http://placeimg.com/640/480",
+            "location": "Estonia",
+            "contacts": [
+                { "type": "phone", "value": "931-462-2218" },
+                { "type": "email", "value": "Abigail_Vandervort36@gmail.com" },
+                { "type": "twitter", "value": "Orlando68" },
+                { "type": "skype", "value": "Edgar.Towne57" },
+                { "type": "discord", "value": "Rowena78" }
+            ]
+        },
+        "contacts": [],
+        "id": "5a2qo238tksb8gnoa",
+        "createdAt": "2021-08-14T03:42:09.370Z"
+    },
+    {
+        "0": {
+            "name": { "first": "Donavon", "last": "Auer" },
+            "avatar": "http://placeimg.com/640/480",
+            "location": "Cyprus",
+            "contacts": [
+                { "type": "phone", "value": "574-582-5822" },
+                { "type": "email", "value": "Ransom39@gmail.com" },
+                { "type": "twitter", "value": "Gage.Cummerata38" },
+                { "type": "skype", "value": "Jadon_Goldner76" },
+                { "type": "discord", "value": "Aidan8" }
+            ]
+        },
+        "contacts": [],
+        "id": "5a2qo23dhksb8i6w8",
+        "createdAt": "2021-08-14T03:43:20.935Z"
+    }
+]
