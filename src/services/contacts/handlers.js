@@ -1,11 +1,13 @@
 import contact from '../../utils/fs-utils.js'
+import createError from 'http-errors'
 
 export const listContacts = async(req, res, next) => {
     try {
         const contactsList = await contact.read()
         res.send(contactsList)
     } catch (error) {
-        res.status(500).send({ error: error.message })
+        //res.status(500).send({ error: error.message })
+        next(createError(404, error.message))
     }
 }
 
