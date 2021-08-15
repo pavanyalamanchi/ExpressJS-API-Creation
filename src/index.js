@@ -2,11 +2,15 @@ import express from 'express'
 import cors from 'cors'
 import listEndpoints from 'express-list-endpoints'
 import services from "./services/index.js"
+import { publicFolderPath } from './utils/fs-utils.js'
 
 const { PORT } = process.env
 const app = express()
 
 app.use(cors())
+
+app.use('/images', express.static(publicFolderPath))
+
 app.use(express.json())
 
 app.use("/", services)
